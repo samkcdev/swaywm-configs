@@ -1,0 +1,5 @@
+[flavor]
+use = "catppuccin-frappe"
+dark = "catppuccin-frappe"
+[status]
+overall = { fg = "#cad3f5", bg = "#181926" }

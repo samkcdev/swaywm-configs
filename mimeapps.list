@@ -1,0 +1,21 @@
+[Default Applications]
+inode/directory=org.gnome.Nautilus.desktop
+application/pdf=org.kde.okular.desktop
+video/vnd.avi=mpv.desktop
+video/mp4=mpv.desktop
+text/html=app.zen_browser.zen.desktop
+x-scheme-handler/http=app.zen_browser.zen.desktop
+x-scheme-handler/https=app.zen_browser.zen.desktop
+x-scheme-handler/about=app.zen_browser.zen.desktop
+x-scheme-handler/unknown=app.zen_browser.zen.desktop
+video/x-matroska=mpv.desktop
+text/css=development-code.desktop
+x-scheme-handler/anytype=anytype.desktop
+x-scheme-handler/com.todoist=todoist.desktop
+x-scheme-handler/todoist=todoist.desktop
+
+[Added Associations]
+video/vnd.avi=mpv.desktop;
+video/mp4=mpv.desktop;
+video/x-matroska=mpv.desktop;
+text/css=development-code.desktop;

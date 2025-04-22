@@ -1,0 +1,31 @@
+[[manager.prepend_keymap]]
+on   = "!"
+run  = 'shell "$SHELL" --block'
+desc = "Open shell here"
+
+[[input.prepend_keymap]]
+on   = "<Esc>"
+run  = "close"
+desc = "Cancel input"
+
+# Mount plugin
+[[manager.prepend_keymap]]
+on = "M"
+run = "plugin mount"
+
+# Hide/Show preview:
+[[manager.prepend_keymap]]
+on   = "T"
+run  = "plugin toggle-pane min-preview"
+desc = "Show or hide the preview pane"
+
+#Maximize/Restore preview:
+[[manager.prepend_keymap]]
+on   = "T"
+run  = "plugin toggle-pane max-preview"
+desc = "Maximize or restore the preview pane"
+
+# confirm before quitting
+[[manager.prepend_keymap]]
+on  = "q"
+run = "plugin confirm-quit"
